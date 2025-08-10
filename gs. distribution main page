@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graystone Distribution Group (GS Distribution) — North American Brand Distribution</title>
+  <meta name="description" content="We distribute local brands across North America through simple partnerships. Sales, delivery, and reporting handled." />
+  <meta property="og:title" content="Graystone Distribution Group (GS Distribution) — North American Brand Distribution" />
+  <meta property="og:description" content="We place local brands on real shelves across North America. We handle sales, orders, and delivery so you can focus on product." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #0b0b0c;
+      --panel: #131316;
+      --text: #e8e8ea;
+      --muted: #a1a1aa;
+      --accent: #4f46e5; /* indigo */
+      --accent-2: #22c55e; /* green */
+      --maxw: 980px;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1000px 600px at 70% -10%, rgba(79,70,229,.15), transparent 60%), var(--bg);
+      line-height: 1.5;
+    }
+    a { color: var(--text); text-decoration: none; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+    .brand .logo { width: 36px; height: 36px; border-radius: 10px; background: #ffffff; color:#000000; display: grid; place-items: center; font-weight: 800; border:1px solid #2a2a31; }
+    .pill { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); background: #0f1013; border: 1px solid #26262b; padding: 6px 10px; border-radius: 999px; }
+    .hero { padding: 72px 0 40px; text-align: center; }
+    .hero h1 { font-size: clamp(28px, 5vw, 48px); line-height: 1.1; margin: 8px 0 12px; }
+    .hero p { color: var(--muted); max-width: 640px; margin: 0 auto; }
+    .cta { margin-top: 22px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    .btn { background: var(--accent); color: white; padding: 12px 18px; border-radius: 14px; border: 0; font-weight: 700; cursor: pointer; }
+    .btn.secondary { background: transparent; border: 1px solid #2a2a31; color: var(--text); }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(12, 1fr); }
+    .card { grid-column: span 12; background: var(--panel); border: 1px solid #26262b; border-radius: var(--radius); padding: 18px; }
+    @media (min-width: 720px) {
+      .card.three { grid-column: span 4; }
+      .card.two { grid-column: span 6; }
+    }
+    .card h3 { margin: 0 0 6px; font-size: 18px; }
+    .card p { margin: 0; color: var(--muted); }
+    .section { padding: 24px 0 6px; }
+    .section h2 { font-size: 22px; margin: 0 0 10px; }
+    .list { padding-left: 18px; color: var(--muted); }
+    .form { display: grid; gap: 10px; grid-template-columns: 1fr; }
+    @media (min-width: 560px) { .form { grid-template-columns: 1fr auto; } }
+    input, textarea { width: 100%; background: #0f1013; border: 1px solid #2a2a31; color: var(--text); border-radius: 12px; padding: 12px 14px; }
+    textarea { resize: vertical; min-height: 110px; }
+    .footer { color: var(--muted); font-size: 12px; padding: 26px 0 40px; text-align: center; }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; background: #0f1013; border: 1px solid #26262b; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header class="container nav">
+    <div class="brand">
+      <div class="logo">GS</div>
+      <div>Graystone Distribution Group</div>
+    </div>
+    <a class="pill" href="#contact">Contact</a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="pill">North America • Retail partnerships</span>
+      <h1>We place local brands on real shelves across North America.</h1>
+      <p>We handle sales, orders, and delivery. You focus on product.</p>
+      <div class="cta">
+        <a class="btn" href="#brands">For brands</a>
+        <a class="btn secondary" href="#retailers">For retailers</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="grid">
+        <article class="card three">
+          <h3>Placement &amp; sales</h3>
+          <p>We pitch, sample, and secure orders with independent and regional retailers.</p>
+        </article>
+        <article class="card three">
+          <h3>Merchandising</h3>
+          <p>We set shelves, refresh displays, and keep products in stock.</p>
+        </article>
+        <article class="card three">
+          <h3>Logistics &amp; reporting</h3>
+          <p>We deliver, invoice, and send simple sell‑through reports.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <h2>How we work</h2>
+      <div class="grid">
+        <article class="card two">
+          <h3>For brands: simple onboarding</h3>
+          <p>Send your line sheet → Trial in 5 stores → Weekly feedback → Scale.</p>
+        </article>
+        <article class="card two">
+          <h3>For retailers: easy ordering</h3>
+          <p>Call or text your rep → Add to weekly route → Low minimums → On‑time delivery.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="brands" class="section">
+      <h2>Brand partner inquiry</h2>
+      <div class="card">
+        <form class="form" style="grid-template-columns: 1fr;" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+          <input type="text" name="brand" placeholder="Brand name" required />
+          <input type="url" name="website" placeholder="Brand website (optional)" />
+          <input type="text" name="contact_name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="you@email.com" required />
+          <textarea name="message" placeholder="Tell us about your products and current placements" required></textarea>
+          <button class="btn" type="submit">Apply</button>
+        </form>
+        <p style="margin-top:8px;color:var(--muted);font-size:12px">We reply within 2 business days.</p>
+      </div>
+    </section>
+    <section id="retailers" class="section">
+      <h2>For retailers</h2>
+      <div class="card">
+        <ul class="list">
+          <li>Curated local brands your customers will notice.</li>
+          <li>Flexible minimums and easy weekly ordering.</li>
+          <li>Merchandising support and fast replenishment.</li>
+          <li>One invoice. One point of contact.</li>
+        </ul>
+        <div class="cta" style="justify-content:flex-start;">
+          <a class="btn" href="#contact">Request catalog</a>
+          <a class="btn secondary" href="#contact">Join delivery route</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Retailer inquiry</h2>
+      <div class="card">
+        <form class="form" style="grid-template-columns: 1fr;" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+          <input type="text" name="store_name" placeholder="Store name" required />
+          <input type="text" name="contact_name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="you@email.com" required />
+          <textarea name="message" placeholder="What categories are you looking for?" required></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    </section>
+
+    <section class="section">
+      <h2>FAQ</h2>
+      <div class="grid">
+        <article class="card two">
+          <h3>Where do you operate?</h3>
+          <p>North America (US &amp; Canada).</p>
+        </article>
+        <article class="card two">
+          <h3>How do you price?</h3>
+          <p>We work on standard wholesale margins. No setup fees.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h3>Team notes</h3>
+        <ul class="list">
+          <li>Set your region (hero + FAQ).</li>
+          <li>Add partner logos in a simple grid if you have them.</li>
+          <li>Replace the Web3Forms access key.</li>
+          <li>Link your line sheet (PDF) from the Retailers section if available.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Graystone Distribution Group. All rights reserved.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
